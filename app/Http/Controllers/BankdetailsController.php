@@ -8,6 +8,7 @@ use DB;
 use Auth;
 class BankdetailsController extends Controller
 {
+
     /**
      * Display a listing of the resource.
      *
@@ -18,6 +19,8 @@ class BankdetailsController extends Controller
     {
         $this->middleware('auth');
     }
+
+    
     
      
     public function index()
