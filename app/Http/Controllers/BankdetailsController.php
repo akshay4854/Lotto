@@ -25,6 +25,12 @@ class BankdetailsController extends Controller
         return view('admin.bankdetails.bank-details');
     }
 
+
+    public function index44()
+    {
+        return view('admin.bankdetails.bank-details');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
